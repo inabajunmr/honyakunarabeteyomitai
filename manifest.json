@@ -17,8 +17,17 @@
   "background": {
     "service_worker": "background.js"
   },
+  "icons": {
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "action": {
-    "default_title": "honyakunarabeteyomitai"
+    "default_title": "honyakunarabeteyomitai",
+    "default_icon": {
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
   },
   "content_scripts": [
     {
